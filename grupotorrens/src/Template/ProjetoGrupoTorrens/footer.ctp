@@ -29,11 +29,11 @@
 
                 <div class="footer-address">
                     <ul>
-                        <li><a href="#" class="active">Home</a></li>
-                        <li><a href="quemSomos.ctp">Quem Somos</a></li>
-                        <li><a href="servicos.ctp">Serviços</a></li>
-                        <li><a href="vagas.ctp">Vagas</a></li>
-                        <li><a href="contato.ctp">Contato</a></li>
+                        <li><a href="index" class="active">Home</a></li>
+                        <li><a href="quemSomos">Quem Somos</a></li>
+                        <li><a href="servicos">Serviços</a></li>
+                        <li><a href="vagas">Vagas</a></li>
+                        <li><a href="contato">Contato</a></li>
                     </ul>
                 </div>
             </div><!--/.col-md-3 -->

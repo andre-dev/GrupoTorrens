@@ -1,6 +1,5 @@
 <?php include("topo.ctp") ?>
 
-
     <!-- Start  Logo & Naviagtion  -->
     <div class="navbar navbar-default navbar-top">
         <div class="container">
@@ -10,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
-                <a href="index.ctp"><img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa"></a>
+                <a href="index"><img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa"></a>
                 <!--<a class="navbar-brand" href="index.html"></a>-->
             </div>
             <div class="navbar-collapse collapse">
@@ -18,19 +17,19 @@
                 <!-- Start Navigation List -->
                 <ul class="nav navbar-nav navbar-right ajusteTop">
                     <li>
-                        <a class="active" href="index.ctp">Home</a>
+                        <a class="active" href="index">Home</a>
                     </li>
                     <li>
-                        <a href="quemSomos.ctp">Quem Somos</a>
+                        <a href="quemSomos">Quem Somos</a>
                     </li>
                     <li>
-                        <a href="servicos.ctp">Serviços</a>
+                        <a href="servicos">Serviços</a>
                     </li>
                     <li>
-                        <a href="vagas.ctp">Vagas</a>
+                        <a href="vagas">Vagas</a>
                     </li>
                     <li>
-                        <a href="contato.ctp">Contato</a>
+                        <a href="contato">Contato</a>
                     </li>
                 </ul>
                 <!-- End Navigation List -->

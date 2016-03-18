@@ -17,19 +17,19 @@
                 <!-- Start Navigation List -->
                 <ul class="nav navbar-nav navbar-right ajusteTop">
                     <li>
-                        <a href="index.ctp">Home</a>
+                        <a href="index">Home</a>
                     </li>
                     <li>
-                        <a href="quemSomos.ctp">Quem Somos</a>
+                        <a href="quemSomos">Quem Somos</a>
                     </li>
                     <li>
-                        <a href="servicos.ctp">Serviços</a>
+                        <a href="servicos">Serviços</a>
                     </li>
                     <li>
-                        <a href="vagas.ctp">Vagas</a>
+                        <a href="vagas">Vagas</a>
                     </li>
                     <li>
-                        <a class="active" href="contato.ctp">Contato</a>
+                        <a class="active" href="contato">Contato</a>
                     </li>
                 </ul>
                 <!-- End Navigation List -->
