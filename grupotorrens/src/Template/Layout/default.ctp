@@ -28,6 +28,15 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css('base.css') ?>
     <?= $this->Html->css('cake.css') ?>
+    <!--CSS Grupo Torrens -->
+    <?= $this->Html->css('style.css') ?>
+    <?= $this->Html->css('slick-theme.css') ?>
+    <?= $this->Html->css('owl.transitions.css') ?>
+    <?= $this->Html->css('owl.theme.css') ?>
+    <?= $this->Html->css('owl.carousel.css') ?>
+    <?= $this->Html->css('lightbox.css') ?>
+    <?= $this->Html->css('animate.css') ?>
+    
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
