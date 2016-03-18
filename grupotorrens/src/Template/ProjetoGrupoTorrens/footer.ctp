@@ -30,10 +30,10 @@
                 <div class="footer-address">
                     <ul>
                         <li><a href="#" class="active">Home</a></li>
-                        <li><a href="quemSomos.php">Quem Somos</a></li>
-                        <li><a href="servicos.php">Serviços</a></li>
-                        <li><a href="vagas.php">Vagas</a></li>
-                        <li><a href="contato.php">Contato</a></li>
+                        <li><a href="quemSomos.ctp">Quem Somos</a></li>
+                        <li><a href="servicos.ctp">Serviços</a></li>
+                        <li><a href="vagas.ctp">Vagas</a></li>
+                        <li><a href="contato.ctp">Contato</a></li>
                     </ul>
                 </div>
             </div><!--/.col-md-3 -->
@@ -57,7 +57,7 @@
             <div class="col-md-3">
                 <div class="fb-page" data-href="https://www.facebook.com/IBMBrasil" data-tabs="timeline" data-width="392.5" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
                             <span style="vertical-align: top;width: 261px;height: 300px;overflow: hidden;">
-                                <iframe name="f3fec856102a64c" width="1000px" height="250px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="http://www.facebook.com/v2.5/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D42%23cb%3Dfe6d01c08977b8%26domain%3D%26origin%3Dfile%253A%252F%252F%252Ff4126a41a66294%26relation%3Dparent.parent&amp;container_width=263&amp;height=250&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FIBMBrasil&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline" style="border: none;visibility: visible;width: 261px;height: 300px;"></iframe>
+                                <iframe name="f3fec856102a64c" width="1000px" height="250px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="http://www.facebook.com/v2.5/plugins/page.ctp?adapt_container_width=true&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.ctp%3Fversion%3D42%23cb%3Dfe6d01c08977b8%26domain%3D%26origin%3Dfile%253A%252F%252F%252Ff4126a41a66294%26relation%3Dparent.parent&amp;container_width=263&amp;height=250&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FIBMBrasil&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline" style="border: none;visibility: visible;width: 261px;height: 300px;"></iframe>
                             </span>
                 </div>
             </div><!--/.col-md-3 -->
