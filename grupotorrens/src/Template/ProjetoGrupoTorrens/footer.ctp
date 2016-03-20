@@ -81,23 +81,20 @@
 </div>
 <!-- End CCopyright Section -->
 
-
-
-<!-- Sulfur JS File -->
-<script src="asset/js/jquery-2.1.3.min.js"></script>
-<script src="asset/js/jquery-migrate-1.2.1.min.js"></script>
-<script src="asset/bootstrap/js/bootstrap.min.js"></script>
-<script src="asset/js/owl.carousel.min.js"></script>
-<script src="asset/js/jquery.appear.js"></script>
-<script src="asset/js/jquery.fitvids.js"></script>
-<script src="asset/js/jquery.nicescroll.min.js"></script>
-<script src="asset/js/lightbox.min.js"></script>
-<script src="asset/js/count-to.js"></script>
-<script src="asset/js/styleswitcher.js"></script>
-
-<script src="asset/js/map.js"></script>
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script src="asset/js/script.js"></script>
+<!-- JS Grupo Torrens -->
+    <?= $this->Html->script('jquery-2.1.3.min.js') ?>
+    <?= $this->Html->script('jquery-migrate-1.2.1.min.js') ?>
+    <?= $this->Html->script('bootstrap/js/bootstrap.min.js') ?>
+    <?= $this->Html->script('owl.carousel.min.js') ?>
+    <?= $this->Html->script('jquery.appear.js') ?>
+    <?= $this->Html->script('jquery.fitvids.js') ?>
+    <?= $this->Html->script('jquery.nicescroll.min.js') ?>
+    <?= $this->Html->script('lightbox.min.js') ?>
+    <?= $this->Html->script('count-to.js') ?>
+    <?= $this->Html->script('styleswitcher.js') ?>
+    <?= $this->Html->script('map.js') ?>
+    <?= $this->Html->script('http://maps.googleapis.com/maps/api/js?sensor=false') ?>
+    <?= $this->Html->script('script.js') ?>
 
 
 </body>

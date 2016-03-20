@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+//use Cake\View\Helper\HtmlHelper;
 
 class ProjetoGrupoTorrensController extends AppController{
     public function index(){

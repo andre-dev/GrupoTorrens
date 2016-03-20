@@ -9,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
-                <img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa">
+                <?php echo $this->Html->image('logo.png', ['alt' => 'Logo da empresa', 'url' => ['controller' => 'ProjetoGrupoTorrens', 'action' => 'index']]);?>
                 <!--<a class="navbar-brand" href="index.html"></a>-->
             </div>
             <div class="navbar-collapse collapse">
@@ -67,7 +67,7 @@
                         <ul id="portfolio-list">
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="300ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img1.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img1.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -78,7 +78,7 @@
                             </li>
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img2.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img2.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -89,7 +89,7 @@
                             </li>
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="900ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img3.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img3.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -100,7 +100,7 @@
                             </li>
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1200ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img4.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img4.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -111,7 +111,7 @@
                             </li>
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1500ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img5.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img5.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
@@ -122,7 +122,7 @@
                             </li>
                             <li class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1800ms">
                                 <div class="portfolio-item">
-                                    <img src="asset/images/portfolio/img6.jpg" class="img-responsive" alt="" />
+                                    <img src="../img/portfolio/img6.jpg" class="img-responsive" alt="" />
                                     <div class="portfolio-caption">
                                         <h4>Portfolio Title</h4>
                                         <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>

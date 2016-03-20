@@ -9,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
-                <img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa">
+                <?php echo $this->Html->image('logo.png', ['alt' => 'Logo da empresa', 'url' => ['controller' => 'ProjetoGrupoTorrens', 'action' => 'index']]);?>
                 <!--<a class="navbar-brand" href="index.html"></a>-->
             </div>
             <div class="navbar-collapse collapse">
@@ -60,7 +60,7 @@
             <div class="row">
                <div class="col-md-5">
                    <div class="about-img">
-                       <img src="asset/images/corporate1.jpg" class="img-responsive" alt="About images">
+                       <img src="../img/corporate1.jpg" class="img-responsive" alt="About img">
                        <div class="head-text">
                            <p class="justificarTexto"><strong>O Grupo Torrens</strong> é uma empresa na área de consultoria em Recursos Humanos e assessoria ao Micro Empreendedor Individual que vem para auxiliar a sua empresa a gerenciar os processos burocráticos de Departamento Pessoal e estruturar o departamento de Recursos Humanos. Oferecemos serviços com baixo custo, agilidade, confiança, segurança e tecnologia.</p>
                        </div>
@@ -284,7 +284,7 @@
             <div class="row">
                 <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="300ms">
                     <div class="team-member">
-                        <img src="asset/images/team/team-1.jpg" class="img-responsive" alt="">
+                        <img src="../img/team/team-1.jpg" class="img-responsive" alt="">
                         <div class="team-details">
                             <h4>John Doe</h4>
                             <p>Founder & Director</p>
@@ -300,7 +300,7 @@
                 </div><!-- /.col-md-3 -->
                 <!--<div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
                     <div class="team-member">
-                        <img src="asset/images/team/team-2.jpg" class="img-responsive" alt="">
+                        <img src="../img/team/team-2.jpg" class="img-responsive" alt="">
                         <div class="team-details">
                             <h4>John Doe</h4>
                             <p>Founder & Director</p>
@@ -316,7 +316,7 @@
                 </div><!-- /.col-md-3 -->
                <!-- <div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="900ms">
                     <div class="team-member">
-                        <img src="asset/images/team/team-3.jpg" class="img-responsive" alt="">
+                        <img src="../img/team/team-3.jpg" class="img-responsive" alt="">
                         <div class="team-details">
                             <h4>John Doe</h4>
                             <p>Founder & Director</p>
@@ -332,7 +332,7 @@
                 </div><!-- /.col-md-3 -->
                 <!--<div class="col-md-3 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1200ms">
                     <div class="team-member">
-                        <img src="asset/images/team/team-4.jpg" class="img-responsive" alt="">
+                        <img src="../img/team/team-4.jpg" class="img-responsive" alt="">
                         <div class="team-details">
                             <h4>John Doe</h4>
                             <p>Founder & Director</p>
@@ -362,11 +362,11 @@
                     <div class="col-md-12">
                         <div class="client-box">
                             <ul class="client-list">
-                                <li><a href="#"><img src="asset/images/clients/client1.png" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="#"><img src="asset/images/clients/client2.png" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="#"><img src="asset/images/clients/client3.png" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="#"><img src="asset/images/clients/client4.png" class="img-responsive" alt="Clients Logo"></a></li>
-                                <li><a href="#"><img src="asset/images/clients/client5.png" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="../img/clients/client1.png" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="../img/clients/client2.png" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="../img/clients/client3.png" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="../img/clients/client4.png" class="img-responsive" alt="Clients Logo"></a></li>
+                                <li><a href="#"><img src="../img/clients/client5.png" class="img-responsive" alt="Clients Logo"></a></li>
                             </ul>
                         </div>
                     </div>

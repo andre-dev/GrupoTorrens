@@ -9,7 +9,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
-                <img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa">
+                <?php echo $this->Html->image('logo.png', ['alt' => 'Logo da empresa', 'url' => ['controller' => 'ProjetoGrupoTorrens', 'action' => 'index']]);?>
                 <!--<a class="navbar-brand" href="index.html"></a>-->
             </div>
             <div class="navbar-collapse collapse">
@@ -185,7 +185,7 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-8">
-            <img src="asset/images/INFOGRAFICO.png" alt="Infográfico sobre o custo total de um funcionário" title="Custo total de um funcionário para o RH">
+            <img src="../img/INFOGRAFICO.png" alt="Infográfico sobre o custo total de um funcionário" title="Custo total de um funcionário para o RH">
         </div>
         <div class="col-md-2">
         </div>
@@ -240,25 +240,25 @@
                         <div class="testimonial-wrapper">
                             <div class="testimonial-item">
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                                <img src="asset/images/team/team-1.jpg" alt="Testimonial images">
+                                <img src="../img/team/team-1.jpg" alt="Testimonial img">
                                 <h5>John Doe</h5>
                                 <div class="desgnation">CEO, ThemeBean</div>
                             </div>
                             <div class="testimonial-item">
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="asset/images/team/team-2.jpg" alt="Testimonial images">
+                                <img src="../img/team/team-2.jpg" alt="Testimonial img">
                                 <h5>John Doe</h5>
                                 <div class="desgnation">CEO, ThemeBean</div>
                             </div>
                             <div class="testimonial-item">
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="asset/images/team/team-3.jpg" alt="Testimonial images">
+                                <img src="../img/team/team-3.jpg" alt="Testimonial img">
                                 <h5>John Doe</h5>
                                 <div class="desgnation">CEO, ThemeBean</div>
                             </div>
                             <div class="testimonial-item">
                                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="asset/images/team/team-4.jpg" alt="Testimonial images">
+                                <img src="../img/team/team-4.jpg" alt="Testimonial img">
                                 <h5>John Doe</h5>
                                 <div class="desgnation">CEO, ThemeBean</div>
                             </div>

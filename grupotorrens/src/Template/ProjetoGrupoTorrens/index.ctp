@@ -9,27 +9,33 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <!-- End Toggle Nav Link For Mobiles -->
-                <a href="index"><img src="asset/images/logo.png" class="img-responsive" alt="Logo da empresa"></a>
-                <!--<a class="navbar-brand" href="index.html"></a>-->
+              <!-- antigo  <a href="index"><img src="../img/logo.png" class="img-responsive" alt="Logo da empresa"></a>-->
+             <?php echo $this->Html->image('logo.png', ['alt' => 'Logo da empresa', 'url' => ['controller' => 'ProjetoGrupoTorrens', 'action' => 'index']]);?>
+             
             </div>
             <div class="navbar-collapse collapse">
 
                 <!-- Start Navigation List -->
                 <ul class="nav navbar-nav navbar-right ajusteTop">
                     <li>
-                        <a class="active" href="index">Home</a>
+                       <!-- <a class="active" href="index">Home</a>-->
+                       <?php echo $this->Html->Link('Home','/ProjetoGrupoTorrens/index',['class' => 'active']);?>
                     </li>
                     <li>
-                        <a href="quemSomos">Quem Somos</a>
+                        <!--<a href="quemSomos">Quem Somos</a>-->
+                        <?php echo $this->Html->Link('Quem Somos', ['controller' => 'projetoGrupoTorrens', 'action' => 'quemSomos']);?>
                     </li>
                     <li>
-                        <a href="servicos">Serviços</a>
+                       <!-- <a href="servicos">Serviços</a>-->
+                       <?php echo $this->Html->Link('Serviços', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos']);?>
                     </li>
                     <li>
-                        <a href="vagas">Vagas</a>
+                        <!--<a href="vagas">Vagas</a>-->
+                        <?php echo $this->Html->Link('Vagas', ['controller' => 'projetoGrupoTorrens', 'action' => 'vagas']);?>
                     </li>
                     <li>
-                        <a href="contato">Contato</a>
+                        <!--<a href="contato">Contato</a>-->
+                        <?php echo $this->Html->Link('Contato', ['controller' => 'projetoGrupoTorrens', 'action' => 'contato']);?>
                     </li>
                 </ul>
                 <!-- End Navigation List -->
