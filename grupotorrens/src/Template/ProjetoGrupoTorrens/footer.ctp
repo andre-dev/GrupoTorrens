@@ -92,6 +92,7 @@
     <?= $this->Html->script('lightbox.min.js') ?>
     <?= $this->Html->script('count-to.js') ?>
     <?= $this->Html->script('styleswitcher.js') ?>
+    
     <?= $this->Html->script('map.js') ?>
     <?= $this->Html->script('http://maps.googleapis.com/maps/api/js?sensor=false') ?>
     <?= $this->Html->script('script.js') ?>
