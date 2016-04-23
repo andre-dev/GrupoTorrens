@@ -51,7 +51,8 @@
                     <div class="intro-text">
                         <h1>Sejam <span>Bem vindos!</span></h1>
                         <p>O único capital insubstituível de uma organização <br> é o conhecimento e a habilidade do seu pessoal.</p>
-                        <a href="quemSomos.ctp" class="page-scroll btn btn-primary">Saiba mais</a>
+                        <?php echo $this->Html->Link('Saiba mais', ['controller' => 'projetoGrupoTorrens', 'action' => 'quemSomos'], array('class' => 'page-scroll btn btn-primary'));?>
+                        
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@
         <!-- End Header Section -->
 
         <!-- Start Call to Action Section -->
-    <section class="call-to-action">
+    <!--<section class="call-to-action">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 wow zoomIn" data-wow-duration="2s" data-wow-delay="300ms">
@@ -67,7 +68,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!-- End Call to Action Section -->
 
         <!-- Start Service Section -->
@@ -83,56 +84,64 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelDP"><i class="fa fa-user"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-user"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelDP'], array('escape' => false));?>
+				            
 				            <h2>DEPARTAMENTO PESSOAL</h2>
 							<p>Processamento de folha de Pagamento, Gestão de Benefícios, Rotinas Mensais e Anuais.</p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelCRH"><i class="fa fa-sitemap"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-sitemap"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelCRH'], array('escape' => false));?>
+				        
 				            <h2>CONSULTORIA EM RECURSOS HUMANOS</h2>
 							<p>Analíse de cenário, estruturação de departamento, soluções em RH.</p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelRH"><i class="fa fa-users"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-users"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelRH'], array('escape' => false));?>
+				            
 				            <h2>RECRUTAMENTO E SELEÇÃO</h2>
 							<p>Seleção de curriculos, analíse de perfil, testes e avaliações.</p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="vagas.ctp"><i class="fa fa-desktop"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-desktop"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'vagas'], array('escape' => false));?>
+				            
 				            <h2>PORTAL VAGAS</h2>
 							<p>Cadastro de Vagas gratuito, divulgue a vaga em aberto e analise os candidatos. </p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelFolha"><i class="fa fa-slideshare"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-slideshare"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelFOLHA'], array('escape' => false));?>
+				            
 				            <h2>FOLHA DOMÉSTICA</h2>
 							<p>Registro, folha de pagamento,rotinas mensais e anuais </p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelSW"><i class="fa fa-connectdevelop"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-connectdevelop"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelSW'], array('escape' => false));?>
+				            
 				            <h2>PORTAL CLIENTE E COLABORADOR</h2>
 							<p>Acesse online as informações dos seus coladores </p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelMEI"><i class="fa fa-line-chart"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-line-chart"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelMEI'], array('escape' => false));?>
+				            
 				            <h2>ASSESSORIA AO MICRO EMPREENDEDOR(MEI)</h2>
 							<p>Registro de Empresa, funcionários, rotinas mensais e anuais </p>
 				        </div>
                     </div>
                     <div class="col-md-3">
                         <div class="services-post">
-				            <a href="servicos.ctp#painelIRPF"><i class="fa fa-paw"></i></a>
+                            <?php echo $this->Html->Link('<i class="fa fa-paw"></i>', ['controller' => 'projetoGrupoTorrens', 'action' => 'servicos#painelIRPF'], array('escape' => false));?>
+				            
 				            <h2>IMPOSTO DE RENDA PESSOA FISÍCA</h2>
 							<p>Declaração Anual e Retificações</p>
 				        </div>

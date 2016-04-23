@@ -61,14 +61,18 @@
                <div class="col-md-5">
                    <div class="about-img">
                        <img src="../img/corporate1.jpg" class="img-responsive" alt="About img">
-                       <div class="head-text">
-                           <p class="justificarTexto"><strong>O Grupo Torrens</strong> é uma empresa na área de consultoria em Recursos Humanos e assessoria ao Micro Empreendedor Individual que vem para auxiliar a sua empresa a gerenciar os processos burocráticos de Departamento Pessoal e estruturar o departamento de Recursos Humanos. Oferecemos serviços com baixo custo, agilidade, confiança, segurança e tecnologia.</p>
-                       </div>
+                       <!--<div class="head-text">
+                           <p class="justificarTexto"><strong>O Grupo Torrens</strong> </p>
+                       </div>-->
                    </div>
                </div>
                <div class="col-md-7">
 
                    <div class="about-list">
+                       <h4>O Grupo Torrens</h4>
+                       <ul>
+                           <li class="justificarTexto"><i class="fa fa-check-square"></i>Somos uma empresa na área de consultoria em Recursos Humanos e assessoria ao Micro Empreendedor Individual que vem para auxiliar a sua empresa a gerenciar os processos burocráticos de Departamento Pessoal e estruturar o departamento de Recursos Humanos. Oferecemos serviços com baixo custo, agilidade, confiança, segurança e tecnologia.</li>
+                       </ul>
                        <h4>Baixo Custo </h4>
                        <ul>
                            <li class="justificarTexto"><i class="fa fa-check-square"></i>Pequenas e médias empresas nao dispõem de tempo e de grandes orçamentos para gerenciar e estruturar o departamento de Recursos Humanos, nos do Grupo Torrens apoiamos a empresa realizando toda a parte burocrática dessa area assim você empresário nao precisa disponibilizar uma pessoa especifica para cuidar do departamento e também aproveita o tempo para manter o foco em outras áreas da empresa.</li>
@@ -356,7 +360,7 @@
         
         
         <!-- Start Client Section -->
-        <div id="client-section" style="border-top: 1px solid #f1f1f1;">
+        <!--<div id="client-section" style="border-top: 1px solid #f1f1f1;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -372,7 +376,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- End Client Section -->
         
         

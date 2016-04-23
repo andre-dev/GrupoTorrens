@@ -61,7 +61,7 @@
         <div class="panel-group" id="accordion">
 
             <!-- Start Accordion 1 -->
-        <div class="panel panel-default" id="painelDP">
+        <div class="panel panel-default" id="painel-d-p">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
@@ -73,7 +73,7 @@
                 <div class="panel-body justificarTexto"><strong>Nós processamos toda sua folha de pagamento, cartão de ponto, gestao de benefícios, e-social, admissão, demissão, rotinas mensais e anuais.</strong></div>
                 <div class="panel-body justificarTexto"><strong>Redução de custos</strong> – Um funcionário especifico para essa função com um salario base de R$ 1000,00 custa mensalmente para o empregador em media R$ 1660,00. Oferecemos  um serviço de tecnologia, qualidade e baixo custo.</div>
                 <div class="panel-body justificarTexto"><strong>Atualização</strong> – Sua empresa não precisa se preocupar em estar atualizado com as mudanças que ocorrem na legislação trabalhista, nos fazemos isso para você e mantemos nossos clientes atualizados.</div>
-                <div class="panel-body justificarTexto" id=painelSW><strong>Sistema WEB</strong> – Oferecemos um sistema web para nossos cliente e seus colaboradores aonde terão acesso a diversas informaçoes como:
+                <div class="panel-body justificarTexto" id=painel-s-w><strong>Sistema WEB</strong> – Oferecemos um sistema web para nossos cliente e seus colaboradores aonde terão acesso a diversas informaçoes como:
                     <ul>
                         <li class="justificarTexto subSistema"><i class="fa fa-check-square"></i> Portal Colaborador – Consulta de dados cadastrais, holerite online, solicitações de documentos, extrato de FGTS, duvidas e sugestões.</li>
                     </ul>
@@ -81,13 +81,21 @@
                         <li class="justificarTexto subSistema"><i class="fa fa-check-square"></i> Portal Empresa – Consulta e atualização de dados cadastrais, holerite online, solicitações de documentos, extrato de FGTS, duvidas e sugestões, Relatorios e indicadores.</li>
                     </ul>
                 </div>
+                <div class="panel-body justificarTexto"><strong>Infográfico</strong> –  No infográfico abaixo mostramos... </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <img src="../img/INFOGRAFICO.png" alt="Infográfico sobre o custo total de um funcionário" title="Custo total de um funcionário para o RH">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
 
             </div>
         </div>
         <!-- End Accordion 1 -->
 
         <!-- Start Accordion 2 -->
-         <div class="panel panel-default" id="painelRH">
+         <div class="panel panel-default" id="painel-r-h">
              <div class="panel-heading">
                  <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2">
@@ -101,7 +109,7 @@
          <!-- End Accordion 2 -->
 
         <!-- Start Accordion 3 -->
-        <div class="panel panel-default" id="painelCRH">
+        <div class="panel panel-default" id="painel-c-r-h">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-3">
@@ -115,7 +123,7 @@
         <!-- End Accordion 3 -->
 
         <!-- Start Accordion 4 -->
-        <div class="panel panel-default" id="painelMEI">
+        <div class="panel panel-default" id="painel-m-e-i">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-4">
@@ -130,7 +138,7 @@
         <!-- End Accordion 4 -->
 
         <!-- Start Accordion 5 -->
-         <div class="panel panel-default" id="painelFolha">
+         <div class="panel panel-default" id="painel-f-o-l-h-a">
              <div class="panel-heading">
                  <h4 class="panel-title">
                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-5">
@@ -144,7 +152,7 @@
          </div>
          <!-- End Accordion 5 -->
             <!-- Start Accordion 6 -->
-            <div class="panel panel-default" id="painelIRPF">
+            <div class="panel panel-default" id="painel-i-r-p-f">
                 <div class="panel-heading">
                     <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-6">
@@ -158,20 +166,6 @@
             </div>
             <!-- End Accordion 6 -->
 
-            <!-- Start Accordion 7 -->
-            <div class="panel panel-default" id="painelIG">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-7">
-                            <i class="fa fa-angle-left control-icon"></i> Infográfico
-                        </a>
-                    </h4>
-                </div>
-                <div id="collapse-7" class="panel-collapse collapse in">
-                    <div class="panel-body justificarTexto">No infográfico abaixo mostramos... </div>
-                </div>
-            </div>
-            <!-- End Accordion 7 -->
 
         </div>
         <!-- End Accordion section -->
@@ -181,15 +175,6 @@
         </div>
 
 
-    <div class="row">
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-8">
-            <img src="../img/INFOGRAFICO.png" alt="Infográfico sobre o custo total de um funcionário" title="Custo total de um funcionário para o RH">
-        </div>
-        <div class="col-md-2">
-        </div>
-    </div>
         
         <!-- Start Fun Facts Section -->
     <section class="fun-facts">
@@ -232,43 +217,5 @@
     </section>
     <!-- End Fun Facts Section -->
         
-        <!-- Start Testimonial Section -->
-        <section id="testimonial-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="testimonial-wrapper">
-                            <div class="testimonial-item">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                                <img src="../img/team/team-1.jpg" alt="Testimonial img">
-                                <h5>John Doe</h5>
-                                <div class="desgnation">CEO, ThemeBean</div>
-                            </div>
-                            <div class="testimonial-item">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="../img/team/team-2.jpg" alt="Testimonial img">
-                                <h5>John Doe</h5>
-                                <div class="desgnation">CEO, ThemeBean</div>
-                            </div>
-                            <div class="testimonial-item">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="../img/team/team-3.jpg" alt="Testimonial img">
-                                <h5>John Doe</h5>
-                                <div class="desgnation">CEO, ThemeBean</div>
-                            </div>
-                            <div class="testimonial-item">
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                                <img src="../img/team/team-4.jpg" alt="Testimonial img">
-                                <h5>John Doe</h5>
-                                <div class="desgnation">CEO, ThemeBean</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Testimonial Section -->
-
-
 
 <?php include("footer.ctp") ?>

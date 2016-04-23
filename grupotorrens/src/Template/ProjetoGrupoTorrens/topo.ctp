@@ -36,7 +36,7 @@
                             <ul class="contact-details">
                                 <li><a href="#"><i class="fa fa-whatsapp"></i> +13 9 9146-0869</a>
                                 </li>
-                                <li><a href="#"><i class="fa fa-envelope-o"></i> contato@mrm.com</a>
+                                <li><a href="#"><i class="fa fa-envelope-o"></i> contato@grupotorrens.com.br</a>
                                 </li>
                             </ul>
                             <!-- End Contact Info -->

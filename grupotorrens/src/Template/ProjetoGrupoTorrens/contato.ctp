@@ -72,11 +72,13 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <?php error_reporting(0); ?>
+                    <?php echo $this->Form->create($user,['url' => ['action' => 'salvar']]); ?>
                         <div class="row">
                             <div class="col-md-6 wow fadeInLeft" data-wow-duration="2s" data-wow-delay="600ms">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Seu Nome *" id="name" required data-validation-required-message="Por favor digite seu nome.">
+                                    <?php echo $this->Form->input('', array('type' => 'text', 'class' => 'form-control', 'placeholder' => 'Digite seu nome', 'required' => 'true', 'data-validation-required-message' => 'Por favor digite seu nome')); ?>
+                                    <!--<input type="text" class="form-control" placeholder="Seu Nome *" id="name" required data-validation-required-message="Por favor digite seu nome.">-->
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
@@ -97,10 +99,11 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="600ms">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                                <!--<button type="submit" class="btn btn-primary">Enviar Mensagem</button>-->
+                                <?php echo $this->Form->button('Enviar Mensagem', array('type' => 'submit', 'class' => 'btn btn-primary')); ?>
                             </div>
                         </div>
-                    </form>
+                    <?php  echo $this->Form->end(); ?>
                 </div>
             </div>
         </div>
