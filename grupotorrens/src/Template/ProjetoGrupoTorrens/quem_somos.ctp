@@ -71,7 +71,7 @@
                    <div class="about-list">
                        <h4>O Grupo Torrens</h4>
                        <ul>
-                           <li class="justificarTexto"><i class="fa fa-check-square"></i>Somos uma empresa na área de consultoria em Recursos Humanos e assessoria ao Micro Empreendedor Individual que vem para auxiliar a sua empresa a gerenciar os processos burocráticos de Departamento Pessoal e estruturar o departamento de Recursos Humanos. Oferecemos serviços com baixo custo, agilidade, confiança, segurança e tecnologia.</li>
+                           <li class="justificarTexto"></i>Somos uma empresa na área de consultoria em Recursos Humanos e assessoria ao Micro Empreendedor Individual que vem para auxiliar a sua empresa a gerenciar os processos burocráticos de Departamento Pessoal e estruturar o departamento de Recursos Humanos. Oferecemos serviços com baixo custo, agilidade, confiança, segurança e tecnologia.</li>
                        </ul>
                        <h4>Baixo Custo </h4>
                        <ul>

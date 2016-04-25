@@ -81,7 +81,7 @@
                         <li class="justificarTexto subSistema"><i class="fa fa-check-square"></i> Portal Empresa – Consulta e atualização de dados cadastrais, holerite online, solicitações de documentos, extrato de FGTS, duvidas e sugestões, Relatorios e indicadores.</li>
                     </ul>
                 </div>
-                <div class="panel-body justificarTexto"><strong>Infográfico</strong> –  No infográfico abaixo mostramos... </div>
+                <div class="panel-body justificarTexto"><strong>Infográfico:</strong></div>
                 <div class="row">
                     <div class="col-md-2"></div>
                     <div class="col-md-8">

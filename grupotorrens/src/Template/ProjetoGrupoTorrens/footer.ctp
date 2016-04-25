@@ -12,9 +12,9 @@
                 <div class="footer-address">
                     <ul>
                         <li class="footer-contact"><i class="fa fa-home"></i>Rua: Acadêmico Inacio Nas. Opazo, nº226</li>
-                        <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">contato@mrm.com</a></li>
+                        <li class="footer-contact"><i class="fa fa-envelope"></i><a href="#">contato@grupotorrens.com</a></li>
                         <li class="footer-contact"><i class="fa fa-whatsapp"></i>(13) 9 9146-0869</li>
-                        <li class="footer-contact"><i class="fa fa-facebook"></i><a href="#" target="_blank">Facebok/MRM</a></li>
+                        <li class="footer-contact"><i class="fa fa-facebook"></i><a href="#" target="_blank">Facebok/GrupoTorrens</a></li>
                     </ul>
                 </div>
             </div><!--/.col-md-3 -->
@@ -29,11 +29,21 @@
 
                 <div class="footer-address">
                     <ul>
-                        <li><a href="index" class="active">Home</a></li>
-                        <li><a href="quemSomos">Quem Somos</a></li>
-                        <li><a href="servicos">Serviços</a></li>
-                        <li><a href="vagas">Vagas</a></li>
-                        <li><a href="contato">Contato</a></li>
+                        <li>
+                        <a href="index">Home</a>
+                    </li>
+                    <li>
+                        <a href="quemSomos">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="servicos">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="vagas">Vagas</a>
+                    </li>
+                    <li>
+                        <a href="contato">Contato</a>
+                    </li>
                     </ul>
                 </div>
             </div><!--/.col-md-3 -->
@@ -55,11 +65,9 @@
             </div>
 
             <div class="col-md-3">
-                <div class="fb-page" data-href="https://www.facebook.com/IBMBrasil" data-tabs="timeline" data-width="392.5" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                            <span style="vertical-align: top;width: 261px;height: 300px;overflow: hidden;">
-                                <iframe name="f3fec856102a64c" width="1000px" height="250px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:page Facebook Social Plugin" src="http://www.facebook.com/v2.5/plugins/page.ctp?adapt_container_width=true&amp;app_id=&amp;channel=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.ctp%3Fversion%3D42%23cb%3Dfe6d01c08977b8%26domain%3D%26origin%3Dfile%253A%252F%252F%252Ff4126a41a66294%26relation%3Dparent.parent&amp;container_width=263&amp;height=250&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FIBMBrasil&amp;locale=pt_BR&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline" style="border: none;visibility: visible;width: 261px;height: 300px;"></iframe>
-                            </span>
-                </div>
+               
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Foceanovipp&tabs=timeline&width=263&height=305&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="263" height="305" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                
             </div><!--/.col-md-3 -->
         </div><!--/.row -->
     </div><!-- /.container -->
@@ -82,20 +90,7 @@
 <!-- End CCopyright Section -->
 
 <!-- JS Grupo Torrens -->
-    <?= $this->Html->script('jquery-2.1.3.min.js') ?>
-    <?= $this->Html->script('jquery-migrate-1.2.1.min.js') ?>
-    <?= $this->Html->script('bootstrap/js/bootstrap.min.js') ?>
-    <?= $this->Html->script('owl.carousel.min.js') ?>
-    <?= $this->Html->script('jquery.appear.js') ?>
-    <?= $this->Html->script('jquery.fitvids.js') ?>
-    <?= $this->Html->script('jquery.nicescroll.min.js') ?>
-    <?= $this->Html->script('lightbox.min.js') ?>
-    <?= $this->Html->script('count-to.js') ?>
-    <?= $this->Html->script('styleswitcher.js') ?>
-    
-    <?= $this->Html->script('map.js') ?>
-    <?= $this->Html->script('http://maps.googleapis.com/maps/api/js?sensor=false') ?>
-    <?= $this->Html->script('script.js') ?>
+
 
 
 </body>
